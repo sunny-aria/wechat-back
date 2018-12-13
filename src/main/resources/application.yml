@@ -1,0 +1,12 @@
+server:
+  port: 8080
+
+my:
+  sysPath: http://www.os2so.com/wechat-back
+  picPath: http://www.os2so.com/wechat-back/images/
+
+spring:
+    mvc:
+      view:
+         prefix: /WEB-INF/view/
+         suffix: .jsp
